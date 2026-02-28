@@ -33,8 +33,8 @@ fmt.Println(t2.Local().Format("02-Jan-06 Mon, 15:04:05"))
 t3:=time.Date(2027,time.February,time.Now().Day(),12,12,12,12,time.Local)
 fmt.Println(t3.Format("02-Jan-06 Mon, 15:04:05"))
 
-var t1,_=new()
-var t2,_= make(chan,6)
+//var t1,_=new()
+//var t2,_= make(chan,6)
 
 
 //to create executables ...must have run go mod init before -> go build        
